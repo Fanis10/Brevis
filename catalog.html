@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Gulp pack for easy html/php markup development">
+	<meta name="keywords" content="">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=9133eb49-3a97-4b2d-90be-6b80a97a5036" type="text/javascript"></script>
+	<title>Каталог</title>
+</head>
+
+
+<body>
+	<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__left">
+                <a class="header__logo" href="">
+                    <img src="img/logo.svg" alt="">
+                </a>
+            </div>
+            <div class="header__right">
+                <div class="header__connection">
+                    <div class="header__links">
+                        <a class="header__mail" href="mailto:info@brevis-interactive.ru">
+                            <img src="img/mail.svg" alt="">
+                            <span>info@brevis-interactive.ru</span>
+                        </a>
+                        <a class="header__tel" href="tel:+7 (4872) 52-40-44">
+                            <img src="img/tel.svg" alt="">
+                            <span>+7 (4872) 52-40-44</span>
+                        </a>
+                        <a class="header__tel header__tel--two" href="tel:+7 (4872) 52-40-43">
+                            <img src="img/tel.svg" alt="">
+                            <span>+7 (4872) 52-40-43</span>
+                        </a>
+                    </div>
+                    <div class="header__search">
+                        <div class="header__search-inner">
+                            <img src="img/search.svg" alt="">
+                            <input type="search" placeholder="Поиск">
+                        </div>
+                    </div>
+                    <div class="header__btn-search"></div>
+                    <div class="header__burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="header__menu">
+                    <nav class="header__nav">
+                        <ul class="header__list">
+                            <li>
+                                <div class="header__catalog">
+                                    <div class="header__catalog-show">каталог оборудования</div>
+                                    <div class="header__catalog-hidden">
+                                      <div class="header__hidden-inner">
+                                          <a class="header__catalog-link header__catalog-link--active" href="">
+                                              <span>Интерактивное оборудование</span>
+                                          </a>
+                                          <a class="header__catalog-link" href="">
+                                              <span>Лингафорные классы</span>
+                                          </a>
+                                          <a class="header__catalog-link" href="">
+                                              <span>Электронные флипчарты</span>
+                                          </a>
+                                          <a class="header__catalog-link" href="">
+                                              <span>Телескопы Levenhuk</span>
+                                          </a>
+                                          <a class="header__catalog-link" href="">
+                                              <span>Робототехника и конструкторы</span>
+                                          </a>
+                                          <a class="header__catalog-link" href="">
+                                              <span>Игровые и спортивные комплексы</span>
+                                          </a>
+                                          <a class="header__catalog-link" href="">
+                                              <span>Мультимедийное оборудование</span>
+                                          </a>
+                                          <a class="header__catalog-link" href="">
+                                              <span>Цифровые телескопы</span>
+                                          </a>
+                                          <a class="header__catalog-link" href="">
+                                              <span>Цифровые лаборатории</span>
+                                          </a>
+                                          <a class="header__catalog-link" href="">
+                                              <span>VR-виртуальная реальность</span>
+                                          </a>
+                                          <a class="header__catalog-link" href="">
+                                              <span>3D принтеры</span>
+                                          </a>
+                                          <a class="header__catalog-link" href="">
+                                              <span>Развивающие интерактивные комплексы</span>
+                                          </a>
+                                          <a class="header__catalog-link" href="">
+                                              <span>Системы опроса</span>
+                                          </a>
+                                      </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="">клиенты</a></li>
+                            <li><a href="">монтаж и настройка</a></li>
+                            <li><a href="">сервис</a></li>
+                            <li><a href="">контакты</a></li>
+                        </ul>
+                        <button class="header__btn">Обратный звонок</button>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+	<section class="catalog">
+		<div class="breadcrumbs">
+			<div class="container">
+				<div class="breadcrumbs__items">
+					<a href="index.html" class="breadcrumbs__item">Главная</a>
+					<a href="" class="breadcrumbs__item">Наше оборудование</a>
+					<a href="index.html" class="breadcrumbs__item">Интерактивное оборудование</a>
+					<a href="index.html" class="breadcrumbs__item">Интерактивные панели</a>
+					<span class="breadcrumbs__item">Интерактивные панели SMART</span>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="catalog__inner">
+				<h2 class="catalog__title display2">Интерактивные панели SMART</h2>
+				<div class="catalog__cards">
+					<div class="hits-card">
+    <div class="hits-card__icons">
+        <button class="hits-card__icon">
+            <img src="img/hits-icon.svg" alt="">
+        </button>
+        <button class="hits-card__icon">
+            <img src="img/hits-icon2.svg" alt="">
+        </button>
+    </div>
+    <div class="hits-card__img">
+        <img src="img/hits-card.webp" alt="">
+    </div>
+    <div class="hits-card__title">Интерактивный дисплей SBID-MX265-V2</div>
+    <div class="hits-card__price">Цена: 214 500₽</div>
+    <div class="hits-card__btns">
+        <button class="hits-card__btn btn-border">Подробнее</button>
+        <div class="hits-card__btns-wrap">
+            <div class="cartcalc hits-card__calc">
+                <button class="ccalc-plus hits-card__calc-plus">+</button>
+                <input type="text" value="1">
+                <button class="ccalc-minus hits-card__calc-minus">-</button>
+            </div>
+            <button class="hits-card__btn2 btn-red">Заказать</button>
+        </div>
+    </div>
+</div>
+					<div class="hits-card">
+    <div class="hits-card__icons">
+        <button class="hits-card__icon">
+            <img src="img/hits-icon.svg" alt="">
+        </button>
+        <button class="hits-card__icon">
+            <img src="img/hits-icon2.svg" alt="">
+        </button>
+    </div>
+    <div class="hits-card__img">
+        <img src="img/hits-card2.webp" alt="">
+    </div>
+    <div class="hits-card__title">Интерактивный дисплей SBID-MX265-V2</div>
+    <div class="hits-card__price">Цена: 1 084 200₽</div>
+    <div class="hits-card__btns">
+        <button class="hits-card__btn btn-border">Подробнее</button>
+        <div class="hits-card__btns-wrap">
+            <div class="cartcalc hits-card__calc">
+                <button class="ccalc-plus hits-card__calc-plus">+</button>
+                <input type="text" value="1">
+                <button class="ccalc-minus hits-card__calc-minus">-</button>
+            </div>
+            <button class="hits-card__btn2 btn-red">Заказать</button>
+        </div>
+    </div>
+</div>
+					<div class="hits-card">
+    <div class="hits-card__icons">
+        <button class="hits-card__icon">
+            <img src="img/hits-icon.svg" alt="">
+        </button>
+        <button class="hits-card__icon">
+            <img src="img/hits-icon2.svg" alt="">
+        </button>
+    </div>
+    <div class="hits-card__img">
+        <img src="img/hits-card.webp" alt="">
+    </div>
+    <div class="hits-card__title">Интерактивный дисплей SBID-MX265-V2</div>
+    <div class="hits-card__price">Цена: 214 500₽</div>
+    <div class="hits-card__btns">
+        <button class="hits-card__btn btn-border">Подробнее</button>
+        <div class="hits-card__btns-wrap">
+            <div class="cartcalc hits-card__calc">
+                <button class="ccalc-plus hits-card__calc-plus">+</button>
+                <input type="text" value="1">
+                <button class="ccalc-minus hits-card__calc-minus">-</button>
+            </div>
+            <button class="hits-card__btn2 btn-red">Заказать</button>
+        </div>
+    </div>
+</div>
+					<div class="hits-card">
+    <div class="hits-card__icons">
+        <button class="hits-card__icon">
+            <img src="img/hits-icon.svg" alt="">
+        </button>
+        <button class="hits-card__icon">
+            <img src="img/hits-icon2.svg" alt="">
+        </button>
+    </div>
+    <div class="hits-card__img">
+        <img src="img/hits-card2.webp" alt="">
+    </div>
+    <div class="hits-card__title">Интерактивный дисплей SBID-MX265-V2</div>
+    <div class="hits-card__price">Цена: 1 084 200₽</div>
+    <div class="hits-card__btns">
+        <button class="hits-card__btn btn-border">Подробнее</button>
+        <div class="hits-card__btns-wrap">
+            <div class="cartcalc hits-card__calc">
+                <button class="ccalc-plus hits-card__calc-plus">+</button>
+                <input type="text" value="1">
+                <button class="ccalc-minus hits-card__calc-minus">-</button>
+            </div>
+            <button class="hits-card__btn2 btn-red">Заказать</button>
+        </div>
+    </div>
+</div>
+					<div class="hits-card">
+    <div class="hits-card__icons">
+        <button class="hits-card__icon">
+            <img src="img/hits-icon.svg" alt="">
+        </button>
+        <button class="hits-card__icon">
+            <img src="img/hits-icon2.svg" alt="">
+        </button>
+    </div>
+    <div class="hits-card__img">
+        <img src="img/hits-card.webp" alt="">
+    </div>
+    <div class="hits-card__title">Интерактивный дисплей SBID-MX265-V2</div>
+    <div class="hits-card__price">Цена: 214 500₽</div>
+    <div class="hits-card__btns">
+        <button class="hits-card__btn btn-border">Подробнее</button>
+        <div class="hits-card__btns-wrap">
+            <div class="cartcalc hits-card__calc">
+                <button class="ccalc-plus hits-card__calc-plus">+</button>
+                <input type="text" value="1">
+                <button class="ccalc-minus hits-card__calc-minus">-</button>
+            </div>
+            <button class="hits-card__btn2 btn-red">Заказать</button>
+        </div>
+    </div>
+</div>
+					<div class="hits-card">
+    <div class="hits-card__icons">
+        <button class="hits-card__icon">
+            <img src="img/hits-icon.svg" alt="">
+        </button>
+        <button class="hits-card__icon">
+            <img src="img/hits-icon2.svg" alt="">
+        </button>
+    </div>
+    <div class="hits-card__img">
+        <img src="img/hits-card2.webp" alt="">
+    </div>
+    <div class="hits-card__title">Интерактивный дисплей SBID-MX265-V2</div>
+    <div class="hits-card__price">Цена: 1 084 200₽</div>
+    <div class="hits-card__btns">
+        <button class="hits-card__btn btn-border">Подробнее</button>
+        <div class="hits-card__btns-wrap">
+            <div class="cartcalc hits-card__calc">
+                <button class="ccalc-plus hits-card__calc-plus">+</button>
+                <input type="text" value="1">
+                <button class="ccalc-minus hits-card__calc-minus">-</button>
+            </div>
+            <button class="hits-card__btn2 btn-red">Заказать</button>
+        </div>
+    </div>
+</div>
+					<div class="hits-card">
+    <div class="hits-card__icons">
+        <button class="hits-card__icon">
+            <img src="img/hits-icon.svg" alt="">
+        </button>
+        <button class="hits-card__icon">
+            <img src="img/hits-icon2.svg" alt="">
+        </button>
+    </div>
+    <div class="hits-card__img">
+        <img src="img/hits-card.webp" alt="">
+    </div>
+    <div class="hits-card__title">Интерактивный дисплей SBID-MX265-V2</div>
+    <div class="hits-card__price">Цена: 214 500₽</div>
+    <div class="hits-card__btns">
+        <button class="hits-card__btn btn-border">Подробнее</button>
+        <div class="hits-card__btns-wrap">
+            <div class="cartcalc hits-card__calc">
+                <button class="ccalc-plus hits-card__calc-plus">+</button>
+                <input type="text" value="1">
+                <button class="ccalc-minus hits-card__calc-minus">-</button>
+            </div>
+            <button class="hits-card__btn2 btn-red">Заказать</button>
+        </div>
+    </div>
+</div>
+					<div class="hits-card">
+    <div class="hits-card__icons">
+        <button class="hits-card__icon">
+            <img src="img/hits-icon.svg" alt="">
+        </button>
+        <button class="hits-card__icon">
+            <img src="img/hits-icon2.svg" alt="">
+        </button>
+    </div>
+    <div class="hits-card__img">
+        <img src="img/hits-card2.webp" alt="">
+    </div>
+    <div class="hits-card__title">Интерактивный дисплей SBID-MX265-V2</div>
+    <div class="hits-card__price">Цена: 1 084 200₽</div>
+    <div class="hits-card__btns">
+        <button class="hits-card__btn btn-border">Подробнее</button>
+        <div class="hits-card__btns-wrap">
+            <div class="cartcalc hits-card__calc">
+                <button class="ccalc-plus hits-card__calc-plus">+</button>
+                <input type="text" value="1">
+                <button class="ccalc-minus hits-card__calc-minus">-</button>
+            </div>
+            <button class="hits-card__btn2 btn-red">Заказать</button>
+        </div>
+    </div>
+</div>
+					<div class="hits-card">
+    <div class="hits-card__icons">
+        <button class="hits-card__icon">
+            <img src="img/hits-icon.svg" alt="">
+        </button>
+        <button class="hits-card__icon">
+            <img src="img/hits-icon2.svg" alt="">
+        </button>
+    </div>
+    <div class="hits-card__img">
+        <img src="img/hits-card.webp" alt="">
+    </div>
+    <div class="hits-card__title">Интерактивный дисплей SBID-MX265-V2</div>
+    <div class="hits-card__price">Цена: 214 500₽</div>
+    <div class="hits-card__btns">
+        <button class="hits-card__btn btn-border">Подробнее</button>
+        <div class="hits-card__btns-wrap">
+            <div class="cartcalc hits-card__calc">
+                <button class="ccalc-plus hits-card__calc-plus">+</button>
+                <input type="text" value="1">
+                <button class="ccalc-minus hits-card__calc-minus">-</button>
+            </div>
+            <button class="hits-card__btn2 btn-red">Заказать</button>
+        </div>
+    </div>
+</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="order">
+		<div class="container">
+			<div class="order__inner">
+				<img class="order__img" src="img/order.png" alt="">
+				<img class="order__img2" src="img/order-bg.png" alt="">
+				<img src="" alt="">
+				<form class="form">
+					<fieldset class="form-group">
+						<h2 class="form__title display2">Закажи прямо сейч��с!</h2>
+						<div class="form__text">
+							Если Вы&nbsp;ощутили острую потребность в&nbsp;интерактивном оборудовании&nbsp;— не&nbsp;мешкайте,
+							<span>заполняйте форму и&nbsp;нажимайте кнопку «Отправить»</span>
+							<button class="form__btn btn-red">отправить </button>
+						</div>
+					</fieldset>
+					<fieldset class="form-group">
+						<div class="form-group__wrap">
+							<input type="text" placeholder="Ваше имя">
+							<i><img src="img/user.svg" alt=""></i>
+						</div>
+						<div class="form-group__wrap">
+							<input type="tel" placeholder="+7 (_ _ _) -_ _ _ -_ _ -_ _">
+							<i><img src="img/tel2.svg" alt=""></i>
+						</div>
+						<div class="form-group__wrap">
+							<input type="email" placeholder="Электронная почта">
+							<i><img src="img/mail2.svg" alt=""></i>
+						</div>
+					</fieldset>
+					<fieldset class="form-group">
+						<div class="form-group__wrap-textarea">
+							<textarea class="form__textarea" placeholder="Комментарий "></textarea>
+							<i><img src="img/comment.svg" alt=""></i>
+						</div>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+	</section>
+	<section class="news">
+		<div class="container">
+			<div class="news__inner">
+				<div class="news__top">
+					<h2 class="news__title display2">Новости</h2>
+					<button class="news__btn btn-red">все новости</button>
+				</div>
+				<div class="news__cards">
+					<div class="news-card">
+						<div class="news-card__img">
+							<img src="img/news.webp" alt="">
+						</div>
+						<div class="news-card__title">Открытие Школы креативных индустрий на базе объединения...</div>
+						<div class="news-card__text">8&nbsp;сентября в&nbsp;Объединении центров развития культуры Тульской области состоялось торжественное открытие первой в&nbsp;регионе Школы креативных…</div>
+						<div class="news-card__info">
+							<div class="news-card__date">08.09.2022</div>
+							<a href="" class="news-card__link">
+								<span>Подробнее</span>
+								<img src="img/arrow.svg" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="news-card">
+						<div class="news-card__img">
+							<img src="img/news2.webp" alt="">
+						</div>
+						<div class="news-card__title">Выставка-презентация проекта...</div>
+						<div class="news-card__text">Центром опережающей профессиональной подготовки в&nbsp;целях популяризации национального проекта «Образование» 8&nbsp;сентября 2022 года проводилась Выставка-презентация…</div>
+						<div class="news-card__info">
+							<div class="news-card__date">08.09.2022</div>
+							<a href="" class="news-card__link">
+								<span>Подробнее</span>
+								<img src="img/arrow.svg" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="news-card">
+						<div class="news-card__img">
+							<img src="img/news2.webp" alt="">
+						</div>
+						<div class="news-card__title">Районная педагогическая конференция Суворовского...</div>
+						<div class="news-card__text">Компания BREVIS приняла участие в&nbsp;педагогической конференции работников образования, которая проходила в&nbsp;г.&nbsp;Суворове.…</div>
+						<div class="news-card__info">
+							<div class="news-card__date">08.09.2022</div>
+							<a href="" class="news-card__link">
+								<span>Подробнее</span>
+								<img src="img/arrow.svg" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__left">
+                <a class="footer__logo" href="">
+                    <img src="img/logo2.svg" alt="">
+                </a>
+            </div>
+            <div class="footer__center">
+                <ul class="footer__list"> 
+                    <li><a href="">каталог оборудования</a></li>
+                    <li><a href="">клиенты</a></li>
+                    <li><a href="">монтаж и настройка</a></li>
+                    <li><a href="">сервис</a></li>
+                    <li><a href="">контакты</a></li>
+                    <li><a href="">акции</a></li>
+                </ul>
+            </div>
+            <div class="footer__right">
+                <div class="footer__socials">
+                    <a href="" class="footer__social">
+                        <img src="img/location2.svg" alt="">
+                        <span>г. Тула, ул. Степанова, д. 34А</span>
+                    </a>
+                    <a href="tel:+7 (4872) 52-40-44" class="footer__social">
+                        <img src="img/tel3.svg" alt="">
+                        <span>+7 (4872) 52-40-44</span>
+                    </a>
+                    <a href="tel:+7 (4872) 52-40-43" class="footer__social">
+                        <img src="img/tel3.svg" alt="">
+                        <span>+7 (4872) 52-40-43</span>
+                    </a>
+                    <a href="mailto:info@brevis-interactive.ru" class="footer__social">
+                        <img src="img/mail3.svg" alt="">
+                        <span>info@brevis-interactive.ru</span>
+                    </a>
+                    <a href="" class="footer__social">
+                        <img src="img/vk.svg" alt="">
+                        <span>мы вконтакте</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+	<script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+<script type="text/javascript">
+    ymaps.ready(init);
+
+    function init() {
+        var myMap = new ymaps.Map("map", {
+            center: [54.206305, 37.643561],
+            zoom: 15
+        });
+
+        var myPlacemark = new ymaps.Placemark([54.206305, 37.646561], null, {
+            iconLayout: 'default#image',
+            iconImageHref: "img/mark.svg",
+            iconImageSize: [107, 60],
+            // iconImageOffset: [-15, -44]
+        });
+        myMap.geoObjects.add(myPlacemark);
+        myMap.behaviors.disable('scrollZoom');
+
+    }
+</script>
+</body>
+
+</html>
